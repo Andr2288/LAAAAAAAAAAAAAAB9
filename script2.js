@@ -174,7 +174,7 @@ logOutButton.addEventListener('click', (e) => {
     logOutButton.style.backgroundColor = "slategray";
     localStorage.removeItem("userData");
     wait(1500).then(() => {
-        window.location.replace("../Part_1/index.html");
+        window.location.replace("index.html");
     });
 });
 
