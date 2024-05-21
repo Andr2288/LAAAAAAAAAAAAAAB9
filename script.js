@@ -218,7 +218,7 @@ function authentification() {
     const userDataJSON = localStorage.getItem("userData");
 
     if (userDataJSON) {
-        window.location.replace ("../Part_2/index.html");
+        window.location.replace ("index2.html");
     } else {
         console.log("Дані користувача не знайдені в LocalStorage");
     }
